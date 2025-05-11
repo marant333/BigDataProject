@@ -1,0 +1,41 @@
+{
+	"name": "cleaned_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "updated_data",
+				"fileSystem": "big-data-container"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Canada",
+				"type": "String"
+			},
+			{
+				"name": "98",
+				"type": "String"
+			},
+			{
+				"name": "172",
+				"type": "String"
+			},
+			{
+				"name": "https://t.co/bIlmMYUV5C ⬅️TAP THE LINK ITS A WEBSITE  #blackbusiness #blacklivesmatter #protest #nojusticenopeace… https://t.co/76ITmfvFc7",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

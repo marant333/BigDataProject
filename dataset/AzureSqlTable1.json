@@ -1,0 +1,34 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "country",
+				"type": "varchar"
+			},
+			{
+				"name": "followers",
+				"type": "varchar"
+			},
+			{
+				"name": "friends",
+				"type": "varchar"
+			},
+			{
+				"name": "content",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "BigDataTable"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

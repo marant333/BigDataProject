@@ -1,0 +1,9 @@
+{
+	"name": "BigDataFactory3",
+	"location": "ukwest",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ae10180d-92fb-4c42-9e0d-70edae833e3b",
+		"tenantId": "f0bdc1c9-5148-4f86-ac40-edd976e1814c"
+	}
+}
